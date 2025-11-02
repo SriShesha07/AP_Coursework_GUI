@@ -1,0 +1,146 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\srish\\OneDrive - University of East Anglia\\Msc Advanced Computing Science\\Advanced Programming\\Coursework\\AP_Coursework_GUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{236BAD7C-45DA-5D63-1AC6-9905A8CF3360}|..\\AP_Coursework\\AP_Coursework\\AP_Coursework.fsproj|c:\\users\\srish\\onedrive - university of east anglia\\msc advanced computing science\\advanced programming\\coursework\\ap_coursework\\ap_coursework\\program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37393A70-8100-4806-ABA7-57E35CB057B5}|AP_Coursework_GUI\\AP_Coursework_GUI.csproj|c:\\users\\srish\\onedrive - university of east anglia\\msc advanced computing science\\advanced programming\\coursework\\ap_coursework_gui\\ap_coursework_gui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{37393A70-8100-4806-ABA7-57E35CB057B5}|AP_Coursework_GUI\\AP_Coursework_GUI.csproj|solutionrelative:ap_coursework_gui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37393A70-8100-4806-ABA7-57E35CB057B5}|AP_Coursework_GUI\\AP_Coursework_GUI.csproj|c:\\users\\srish\\onedrive - university of east anglia\\msc advanced computing science\\advanced programming\\coursework\\ap_coursework_gui\\ap_coursework_gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37393A70-8100-4806-ABA7-57E35CB057B5}|AP_Coursework_GUI\\AP_Coursework_GUI.csproj|solutionrelative:ap_coursework_gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{236BAD7C-45DA-5D63-1AC6-9905A8CF3360}|..\\AP_Coursework\\AP_Coursework\\AP_Coursework.fsproj|c:\\users\\srish\\onedrive - university of east anglia\\msc advanced computing science\\advanced programming\\coursework\\ap_coursework\\ap_coursework\\ap_coursework.fsproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37393A70-8100-4806-ABA7-57E35CB057B5}|AP_Coursework_GUI\\AP_Coursework_GUI.csproj|c:\\users\\srish\\onedrive - university of east anglia\\msc advanced computing science\\advanced programming\\coursework\\ap_coursework_gui\\ap_coursework_gui\\ap_coursework_gui.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{37393A70-8100-4806-ABA7-57E35CB057B5}|AP_Coursework_GUI\\AP_Coursework_GUI.csproj|solutionrelative:ap_coursework_gui\\ap_coursework_gui.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37393A70-8100-4806-ABA7-57E35CB057B5}|AP_Coursework_GUI\\AP_Coursework_GUI.csproj|c:\\users\\srish\\onedrive - university of east anglia\\msc advanced computing science\\advanced programming\\coursework\\ap_coursework_gui\\ap_coursework_gui\\ap_coursework_gui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{37393A70-8100-4806-ABA7-57E35CB057B5}|AP_Coursework_GUI\\AP_Coursework_GUI.csproj|solutionrelative:ap_coursework_gui\\ap_coursework_gui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37393A70-8100-4806-ABA7-57E35CB057B5}|AP_Coursework_GUI\\AP_Coursework_GUI.csproj|c:\\users\\srish\\onedrive - university of east anglia\\msc advanced computing science\\advanced programming\\coursework\\ap_coursework_gui\\ap_coursework_gui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{37393A70-8100-4806-ABA7-57E35CB057B5}|AP_Coursework_GUI\\AP_Coursework_GUI.csproj|solutionrelative:ap_coursework_gui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37393A70-8100-4806-ABA7-57E35CB057B5}|AP_Coursework_GUI\\AP_Coursework_GUI.csproj|c:\\users\\srish\\onedrive - university of east anglia\\msc advanced computing science\\advanced programming\\coursework\\ap_coursework_gui\\ap_coursework_gui\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37393A70-8100-4806-ABA7-57E35CB057B5}|AP_Coursework_GUI\\AP_Coursework_GUI.csproj|solutionrelative:ap_coursework_gui\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AP_Coursework",
+              "DocumentMoniker": "C:\\Users\\srish\\OneDrive - University of East Anglia\\Msc Advanced Computing Science\\Advanced Programming\\Coursework\\AP_Coursework\\AP_Coursework\\AP_Coursework.fsproj",
+              "RelativeDocumentMoniker": "..\\AP_Coursework\\AP_Coursework\\AP_Coursework.fsproj",
+              "ToolTip": "C:\\Users\\srish\\OneDrive - University of East Anglia\\Msc Advanced Computing Science\\Advanced Programming\\Coursework\\AP_Coursework\\AP_Coursework\\AP_Coursework.fsproj",
+              "RelativeToolTip": "..\\AP_Coursework\\AP_Coursework\\AP_Coursework.fsproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001351|",
+              "WhenOpened": "2025-10-25T21:16:36.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AP_Coursework_GUI",
+              "DocumentMoniker": "C:\\Users\\srish\\OneDrive - University of East Anglia\\Msc Advanced Computing Science\\Advanced Programming\\Coursework\\AP_Coursework_GUI\\AP_Coursework_GUI\\AP_Coursework_GUI.csproj",
+              "RelativeDocumentMoniker": "AP_Coursework_GUI\\AP_Coursework_GUI.csproj",
+              "ToolTip": "C:\\Users\\srish\\OneDrive - University of East Anglia\\Msc Advanced Computing Science\\Advanced Programming\\Coursework\\AP_Coursework_GUI\\AP_Coursework_GUI\\AP_Coursework_GUI.csproj",
+              "RelativeToolTip": "AP_Coursework_GUI\\AP_Coursework_GUI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-25T21:09:05.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\srish\\OneDrive - University of East Anglia\\Msc Advanced Computing Science\\Advanced Programming\\Coursework\\AP_Coursework_GUI\\AP_Coursework_GUI\\App.xaml",
+              "RelativeDocumentMoniker": "AP_Coursework_GUI\\App.xaml",
+              "ToolTip": "C:\\Users\\srish\\OneDrive - University of East Anglia\\Msc Advanced Computing Science\\Advanced Programming\\Coursework\\AP_Coursework_GUI\\AP_Coursework_GUI\\App.xaml",
+              "RelativeToolTip": "AP_Coursework_GUI\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-20T10:33:39.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\srish\\OneDrive - University of East Anglia\\Msc Advanced Computing Science\\Advanced Programming\\Coursework\\AP_Coursework_GUI\\AP_Coursework_GUI\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AP_Coursework_GUI\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\srish\\OneDrive - University of East Anglia\\Msc Advanced Computing Science\\Advanced Programming\\Coursework\\AP_Coursework_GUI\\AP_Coursework_GUI\\AssemblyInfo.cs",
+              "RelativeToolTip": "AP_Coursework_GUI\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T10:33:37.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AP_Coursework_GUI.csproj",
+              "DocumentMoniker": "C:\\Users\\srish\\OneDrive - University of East Anglia\\Msc Advanced Computing Science\\Advanced Programming\\Coursework\\AP_Coursework_GUI\\AP_Coursework_GUI\\AP_Coursework_GUI.csproj",
+              "RelativeDocumentMoniker": "AP_Coursework_GUI\\AP_Coursework_GUI.csproj",
+              "ToolTip": "C:\\Users\\srish\\OneDrive - University of East Anglia\\Msc Advanced Computing Science\\Advanced Programming\\Coursework\\AP_Coursework_GUI\\AP_Coursework_GUI\\AP_Coursework_GUI.csproj",
+              "RelativeToolTip": "AP_Coursework_GUI\\AP_Coursework_GUI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-20T05:26:43.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\srish\\OneDrive - University of East Anglia\\Msc Advanced Computing Science\\Advanced Programming\\Coursework\\AP_Coursework_GUI\\AP_Coursework_GUI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "AP_Coursework_GUI\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\srish\\OneDrive - University of East Anglia\\Msc Advanced Computing Science\\Advanced Programming\\Coursework\\AP_Coursework_GUI\\AP_Coursework_GUI\\MainWindow.xaml",
+              "RelativeToolTip": "AP_Coursework_GUI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-20T05:22:47.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\srish\\OneDrive - University of East Anglia\\Msc Advanced Computing Science\\Advanced Programming\\Coursework\\AP_Coursework_GUI\\AP_Coursework_GUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AP_Coursework_GUI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\srish\\OneDrive - University of East Anglia\\Msc Advanced Computing Science\\Advanced Programming\\Coursework\\AP_Coursework_GUI\\AP_Coursework_GUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "AP_Coursework_GUI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T05:22:44.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.fs",
+              "DocumentMoniker": "C:\\Users\\srish\\OneDrive - University of East Anglia\\Msc Advanced Computing Science\\Advanced Programming\\Coursework\\AP_Coursework\\AP_Coursework\\Program.fs",
+              "RelativeDocumentMoniker": "..\\AP_Coursework\\AP_Coursework\\Program.fs",
+              "ToolTip": "C:\\Users\\srish\\OneDrive - University of East Anglia\\Msc Advanced Computing Science\\Advanced Programming\\Coursework\\AP_Coursework\\AP_Coursework\\Program.fs",
+              "RelativeToolTip": "..\\AP_Coursework\\AP_Coursework\\Program.fs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAiwMAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-20T05:45:09.992Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
