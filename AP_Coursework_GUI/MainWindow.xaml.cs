@@ -59,7 +59,6 @@ namespace AP_Coursework_GUI
             ErrorBox.Clear();
             ResultTextBox.Clear();
 
-            // parse ranges
             if (!double.TryParse(XMinBox.Text, NumberStyles.Float, CultureInfo.InvariantCulture, out double xmin) ||
                 !double.TryParse(XMaxBox.Text, NumberStyles.Float, CultureInfo.InvariantCulture, out double xmax) ||
                 !double.TryParse(StepBox.Text, NumberStyles.Float, CultureInfo.InvariantCulture, out double step))
@@ -80,7 +79,6 @@ namespace AP_Coursework_GUI
                 return;
             }
 
-            // split lines; setup = all except last; expr = last
             var lines = input.Split(new[] {'\n',';'}, StringSplitOptions.RemoveEmptyEntries)
                              .Select(s => s.Trim())
                              .Where(s => s.Length>0)
@@ -93,7 +91,6 @@ namespace AP_Coursework_GUI
             string expr = lines[lines.Length-1];
             var setup = lines.Take(lines.Length-1);
 
-            // reset state so that only these definitions are used
             ExprEvaluator.ResetState();
             foreach (var stmt in setup)
             {
@@ -105,10 +102,9 @@ namespace AP_Coursework_GUI
                 }
             }
 
-            // sample points
             var points = new List<Point>();
             double x = xmin;
-            int guard = 0; // avoid infinite loop
+            int guard = 0;
             while (x <= xmax + 1e-12 && guard < 100000)
             {
                 string yStr = ExprEvaluator.EvaluateExprForX(expr, x);
@@ -139,7 +135,7 @@ namespace AP_Coursework_GUI
             double width = Math.Max(PlotCanvas.ActualWidth, 10);
             double height = Math.Max(PlotCanvas.ActualHeight, 10);
             if (width < 50) width = 800; if (height < 50) height = 400;
-            double pad = 40; // extra padding to fit axis numbers
+            double pad = 40;
 
             double ymin = data.Min(p => p.Y);
             double ymax = data.Max(p => p.Y);
@@ -148,7 +144,6 @@ namespace AP_Coursework_GUI
             Func<double,double> xToPx = xv => pad + (xv - xmin) / (xmax - xmin) * (width - 2*pad);
             Func<double,double> yToPy = yv => height - pad - (yv - ymin) / (ymax - ymin) * (height - 2*pad);
 
-            // draw axes at x=0 and y=0 when they cross the view
             if (xmin <= 0 && 0 <= xmax)
             {
                 var x0 = xToPx(0);
@@ -162,7 +157,6 @@ namespace AP_Coursework_GUI
                 PlotCanvas.Children.Add(hline);
             }
 
-            // ticks and labels helpers
             double NiceStep(double range, int targetTicks = 8)
             {
                 if (range <= 0 || double.IsNaN(range) || double.IsInfinity(range)) return 1.0;
@@ -180,7 +174,6 @@ namespace AP_Coursework_GUI
                 return v.ToString("0.###", CultureInfo.InvariantCulture);
             }
 
-            // X-axis ticks and numbers (bottom)
             {
                 double xrange = xmax - xmin;
                 double step = NiceStep(xrange);
@@ -202,7 +195,6 @@ namespace AP_Coursework_GUI
                 }
             }
 
-            // Y-axis ticks and numbers (left)
             {
                 double yrange = ymax - ymin;
                 double step = NiceStep(yrange);
@@ -224,7 +216,6 @@ namespace AP_Coursework_GUI
                 }
             }
 
-            // polyline
             var poly = new Polyline { Stroke = Brushes.SteelBlue, StrokeThickness = 2 };
             foreach (var p in data)
             {
@@ -236,31 +227,14 @@ namespace AP_Coursework_GUI
         private void HelpMenu_Click(object sender, RoutedEventArgs e)
         {
             string helpText =
-                "Valid tokens and syntax:\n" +
-                "  Integers (e.g., 10)\n" +
-                "  Floats (e.g., 23.45)\n" +
-                "  Identifiers (variables/functions): start with a letter, then letters/digits/_\n" +
-                "  Operators: +  -  *  /  %  ^\n" +
-                "  Parentheses: ( )\n\n" +
-                "Statements (separate by newline or ';'):\n" +
-                "  Expression:    1 + 2 * 3\n" +
-                "  Assignment:    x = 10\n" +
-                "  Function def:  f(x) = x^2 + 2*x + 1\n" +
-                "  Function call: f(3)   // uses the definition above\n\n" +
-                "Plotting (Task GUI2):\n" +
-                "  - Enter any setup lines (variable assignments or function defs).\n" +
-                "  - Make the LAST line an expression in x (e.g., ax + b, or f(x)).\n" +
-                "  - Set Xmin, Xmax, Step and click Plot.\n" +
-                "    • Xmin: left boundary of the x-range to sample.\n" +
-                "    • Xmax: right boundary of the x-range to sample (must be > Xmin).\n" +
-                "    • Step: spacing between consecutive x samples (must be > 0). Smaller step → smoother curve (more points).\n" +
-                "  These parameters are part of the plotting task (GUI2). They are not required by INT2 itself, but are needed so the GUI knows which x-range to evaluate your expression over.\n" +
-                "  Example: a=2; b=1; y = a*x + b  // then Plot\n" +
-                "           f(x)=x^2+2*x+1; f(x)  // then Plot\n\n" +
-                "Notes:\n" +
-                "  - Variables must be assigned before use, else an error is shown.\n" +
-                "  - Integer-like results print without decimals; floats show 4 decimals.\n" +
-                "  - '^' supports integer exponents only.\n";
+                    "Valid tokens and syntax:\n" +
+                    "  Integers (e.g., 10)\n" +
+                    "  Floats (e.g., 23.45)\n" +
+                    "  Identifiers (variables/functions): start with a letter, then letters/digits/_\n" +
+                    "  Operators: +  -  *  /  %  ^\n" +
+                    "  Parentheses: ( )\n\n" +
+                    "Statements (separate by newline or ';'):\n" 
+                ;
                 
             MessageBox.Show(helpText, "Help - Syntax and Tokens",
                 MessageBoxButton.OK, MessageBoxImage.Information);
