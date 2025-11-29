@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\AP_Coursework\AP_Coursework\AP_Coursework.fsproj" />
+    <ProjectReference Include="..\AP_Coursework\AP_Coursework.fsproj" />
   </ItemGroup>
 
 </Project>

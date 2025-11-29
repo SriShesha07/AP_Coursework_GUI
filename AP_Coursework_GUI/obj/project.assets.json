@@ -116,8 +116,8 @@
     },
     "AP_Coursework/1.0.0": {
       "type": "project",
-      "path": "../../AP_Coursework/AP_Coursework/AP_Coursework.fsproj",
-      "msbuildProject": "../../AP_Coursework/AP_Coursework/AP_Coursework.fsproj"
+      "path": "../AP_Coursework/AP_Coursework.fsproj",
+      "msbuildProject": "../AP_Coursework/AP_Coursework.fsproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -157,8 +157,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\srish\\OneDrive - University of East Anglia\\Msc Advanced Computing Science\\Advanced Programming\\Coursework\\AP_Coursework\\AP_Coursework\\AP_Coursework.fsproj": {
-              "projectPath": "C:\\Users\\srish\\OneDrive - University of East Anglia\\Msc Advanced Computing Science\\Advanced Programming\\Coursework\\AP_Coursework\\AP_Coursework\\AP_Coursework.fsproj"
+            "C:\\Users\\srish\\OneDrive - University of East Anglia\\Msc Advanced Computing Science\\Advanced Programming\\Coursework\\AP_Coursework_GUI\\AP_Coursework\\AP_Coursework.fsproj": {
+              "projectPath": "C:\\Users\\srish\\OneDrive - University of East Anglia\\Msc Advanced Computing Science\\Advanced Programming\\Coursework\\AP_Coursework_GUI\\AP_Coursework\\AP_Coursework.fsproj"
             }
           }
         }

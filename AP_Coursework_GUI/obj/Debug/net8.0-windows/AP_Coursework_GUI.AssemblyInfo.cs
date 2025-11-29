@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AP_Coursework_GUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80b9cdbf1dccb69dfa9a9cfcd6559ea87ac398f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d91b1dd1f8780cc421216070473c167e104c2aaa")]
 [assembly: System.Reflection.AssemblyProductAttribute("AP_Coursework_GUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AP_Coursework_GUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

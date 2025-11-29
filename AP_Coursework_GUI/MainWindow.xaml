@@ -22,12 +22,27 @@
             <StackPanel Orientation="Horizontal" Margin="0,5,0,0" VerticalAlignment="Center" >
                 <Button Content="Evaluate" Width="90" Margin="0,0,10,0" Click="Evaluate_Click"/>
                 <TextBlock Text="Xmin:" VerticalAlignment="Center"/>
-                <TextBox Name="XMinBox" Width="80" Margin="4,0,10,0" Text="-10"/>
+                <TextBox Name="XMinBox" Width="70" Margin="4,0,10,0" Text="-10"/>
                 <TextBlock Text="Xmax:" VerticalAlignment="Center"/>
-                <TextBox Name="XMaxBox" Width="80" Margin="4,0,10,0" Text="10"/>
+                <TextBox Name="XMaxBox" Width="70" Margin="4,0,10,0" Text="10"/>
                 <TextBlock Text="Step:" VerticalAlignment="Center"/>
-                <TextBox Name="StepBox" Width="80" Margin="4,0,10,0" Text="0.5"/>
-                <Button Content="Plot" Width="90" Click="Plot_Click"/>
+                <TextBox Name="StepBox" Width="60" Margin="4,0,10,0" Text="0.5"/>
+                <Button Content="Plot" Width="80" Margin="0,0,10,0" Click="Plot_Click"/>
+
+                <TextBlock Text="x0:" VerticalAlignment="Center"/>
+                <TextBox Name="X0Box" Width="60" Margin="4,0,10,0" Text="0"/>
+                <Button Content="Plot y'(x)" Width="90" Margin="0,0,6,0" Click="PlotDerivative_Click"/>
+                <Button Content="Tangent @ x0" Width="110" Margin="0,0,10,0" Click="Tangent_Click"/>
+
+                <TextBlock Text="a:" VerticalAlignment="Center"/>
+                <TextBox Name="ABox" Width="60" Margin="4,0,6,0" Text="-1"/>
+                <TextBlock Text="b:" VerticalAlignment="Center"/>
+                <TextBox Name="BBox" Width="60" Margin="4,0,10,0" Text="1"/>
+                <Button Content="Integrate [a,b]" Width="120" Margin="0,0,10,0" Click="Integrate_Click"/>
+
+                <Button Content="Root (Bisect)" Width="110" Margin="0,0,4,0" Click="RootBisect_Click"/>
+                <Button Content="Root (Newton)" Width="110" Margin="0,0,4,0" Click="RootNewton_Click"/>
+                <Button Content="Root (Secant)" Width="110" Click="RootSecant_Click"/>
             </StackPanel>
 
             <TextBlock Text="Result:" FontWeight="Bold" Margin="0,8,0,0"/>
